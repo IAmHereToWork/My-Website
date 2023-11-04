@@ -1,0 +1,60 @@
+body {
+    background-image: url(./Assets/IMG_0145.jpg);
+    padding: 100px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 1fr 7fr 3fr;
+}
+
+
+.header-wrapper {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.text-image {
+    height: 100px;
+    width: 100px;
+}
+
+.menu {
+    grid-row-start: 2;
+}
+
+.menu-item {
+    display: flex;
+    padding: 50px 2px;
+    justify-content: space-around;
+
+}
+
+.menu-item a {
+    flex-direction: row;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+    border-color: white;
+    align-content: space-around;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(255, 217, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
